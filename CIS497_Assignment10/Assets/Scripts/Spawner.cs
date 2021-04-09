@@ -17,11 +17,6 @@ public class Spawner : MonoBehaviour
     float left = -32f;
     float right = 32f;
 
-    private void Start()
-    {
-        //StartCoroutine(Spawn());
-    }
-
     public IEnumerator Spawn()
     {
         int side = Random.Range(0, 4);
